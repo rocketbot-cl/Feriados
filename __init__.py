@@ -30,6 +30,30 @@ import requests
 """
 module = GetParams("module")
 
+
+if module == "getFeriadoArgentina":
+
+    try:
+
+        date_ = GetParams('date_')
+        var_ = GetParams('var_')
+        year = date_[0:4]
+        url = r"http://nolaborables.com.ar/api/v2/feriados/{year}?formato=mensual".format(year=year)
+        response = requests.get(url)
+        data = response.json()
+        try:
+            month = int(date_[5:7]) - 1
+            day = str(int(date_[8:10]))
+            feriado = data[month][day]
+            if feriado is not None:
+                res = True
+        except:
+            res = False
+        SetVar(var_, res)
+    except Exception as e:
+        PrintException()
+        raise e
+
 if module == "getFeriado":
 
     try:
