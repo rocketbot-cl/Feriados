@@ -16,6 +16,9 @@ Module to indicate if a day is a holiday.
 
 ## Updates
 
+### 21-Oct-2021
+- Add holiday for Colombia. Now, we have to create an account from https://calendarific.com/account and copy the API KEY.
+
 ### 9-Abr-2021
 - Add holiday for Argentina.
 

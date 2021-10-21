@@ -83,6 +83,27 @@ if module == "getFeriado":
         PrintException()
         raise e
 
+if module == "getFeriadoColombia":
+    try:
+
+        date_ = GetParams('date_')
+        api_key = GetParams('api_key')
+        var_ = GetParams('var_')
+        year = date_[0:4]
+        url = r"https://calendarific.com/api/v2/holidays?api_key={api_key}&country=CO&year={year}".format(api_key=api_key, year=year)
+        response = requests.get(url)
+        data = response.json()
+        holydays = data['response']['holidays']
+        date_with_slash = date_.replace("/", "-")
+        res = False
+        for holyday in holydays:
+            if holyday['date']['iso'] == date_with_slash:
+                res = True
+        SetVar(var_, res)
+    except Exception as e:
+        PrintException()
+        raise e
+
 if module == "esFeriado":
     res = GetParams("res")
     try:
