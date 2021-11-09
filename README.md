@@ -16,7 +16,7 @@ In this module, almost all the commands can be used without any previous step an
 1. Enter to the following page and register https://calendarific.com/signup
 2. Then we will go to our account, if you do not find the Account section you can enter the following link https://calendarific.com/account
 3. In Account & Subscription Details we will have to look for our API Key and then use it in the API Key input of the Feriados Colombia command.
-
+Note: Keep in mind that you have a limit of 1000 queries to the API.
 
 ## Overview
 
