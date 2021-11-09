@@ -12,8 +12,12 @@ paises.
 __Download__ and __install__ the content in 'modules' folder in Rocketbot path
 ## How to use this module
   
-Eiusmod veniam ut nisi minim in. Do et deserunt eiusmod veniam sint aliqua nulla adipisicing laboris voluptate fugiat 
-ullamco elit do. Sint amet cillum fugiat excepteur mollit voluptate reprehenderit nisi commodo sint minim.
+In this module, almost all the commands can be used without any previous step and follow the manual steps. In order to use the command "Colombian Holidays" we must use an API Key. We have to follow these steps:
+1. Enter to the following page and register https://calendarific.com/signup
+2. Then we will go to our account, if you do not find the Account section you can enter the following link https://calendarific.com/account
+3. In Account & Subscription Details we will have to look for our API Key and then use it in the API Key input of the Feriados Colombia command.
+
+
 ## Overview
 
 
