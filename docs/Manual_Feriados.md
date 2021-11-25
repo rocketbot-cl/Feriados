@@ -7,14 +7,13 @@
 Con este modulo podemos verificar si, dada una fecha en formato YYYY/mm/dd, corresponde con un dia feriado de algunos 
 paises.  
   
-![banner](https://raw.githubusercontent.com/rocketbot-cl/Feriados/master/docs/imgs/Banner_Feriados.png)
+![banner](/docs/imgs/Banner_Feriados.png)
 ## Como instalar este módulo
   
-__Descarga__ e __instala__ el contenido en la carpeta 'modules' en la ruta de rocketbot.
-## Como usar este module
-  
-Eiusmod veniam ut nisi minim in. Do et deserunt eiusmod veniam sint aliqua nulla adipisicing laboris voluptate fugiat 
-ullamco elit do. Sint amet cillum fugiat excepteur mollit voluptate reprehenderit nisi commodo sint minim.
+__Descarga__ e __instala__ el contenido en la carpeta 'modules' en la ruta de rocketbot.  
+
+
+
 ## Descripción de los comandos
 
 ### Consultar feriado en Argentina
