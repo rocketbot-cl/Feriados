@@ -2,9 +2,9 @@
   "author": "Nicolas Liendro",
   "description": "Indica el feriado de algunos paises",
   "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
-  "version": "1.1",
+  "version": "1.1.1",
   "license": "MIT",
-  "homepage": "http://rocketbot.co/",
+  "homepage": "http://rocketbot.com/",
   "linux": true,
   "windows": true,
   "mac": true,
@@ -20,8 +20,8 @@
   "icon": "data:image/png;base64,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",
   "children": [{
     "en": {
-      "title": "Check holyday day in Argentina",
-      "description": "Check holyday day in Argentina",
+      "title": "Check holiday in Argentina",
+      "description": "Check holiday in Argentina",
       "title_options": "Select Option",
       "options": null
     },
@@ -41,6 +41,10 @@
             "es": "Fecha:",
             "en": "Date:"
           },
+          "description": {
+            "es": "Fecha que se desea consultar si es feriado.",
+            "en": "Date to check if it is a holiday."
+          },
           "help": {
             "es": "Formato de fecha YYYY/mm/dd",
             "en": "Date format YYYY/mm/dd"
@@ -54,6 +58,10 @@
           "title": {
             "es": "Asignar resultado a variable:",
             "en": "Assign result to a Variable:"
+          },
+          "description": {
+            "es": "Variable donde se asignará el resultado de la consulta.",
+            "en": "Variable where the result of the query will be assigned."
           },
           "help": {
             "es": "Nombre de variable sin llaves {}",
@@ -79,8 +87,8 @@
   },
     {
       "en": {
-        "title": "Check holyday day in Chile",
-        "description": "Check holyday day in Chile",
+        "title": "Check holiday in Chile",
+        "description": "Check holiday in Chile",
         "title_options": "Select Option",
         "options": null
       },
@@ -100,6 +108,10 @@
               "es": "Fecha:",
               "en": "Date:"
             },
+            "description": {
+                "es": "Fecha que se desea consultar si es feriado.",
+                "en": "Date to check if it is a holiday."
+            },
             "help": {
               "es": "Formato de fecha YYYY/mm/dd",
               "en": "Date format YYYY/mm/dd"
@@ -113,6 +125,10 @@
             "title": {
               "es": "Asignar resultado a variable:",
               "en": "Assign result to a Variable:"
+            },
+            "description": {
+                "es": "Variable donde se asignará el resultado de la consulta.",
+                "en": "Variable where the result of the query will be assigned."
             },
             "help": {
               "es": "Nombre de variable sin llaves {}",
@@ -138,8 +154,8 @@
     },
     {
       "en": {
-        "title": "Is holiday day in Peru?",
-        "description": "Check if is a holiday day in Peru",
+        "title": "Is holiday in Peru?",
+        "description": "Check if is a holiday in Peru",
         "title_options": "Select Option",
         "options": null
       },
@@ -158,6 +174,10 @@
             "title": {
               "es": "Asignar resultado a una variable",
               "en": "Set result to a variable"
+            },
+            "description": {
+                "es": "Variable donde se asignará el resultado de la consulta.",
+                "en": "Variable where the result of the query will be assigned."
             },
             "help": {
               "es": "Variable sin {}",
