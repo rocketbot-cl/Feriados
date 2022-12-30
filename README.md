@@ -1,13 +1,8 @@
-
-
-
-
 # Holidays
   
-Con este modulo podemos verificar si, dada una fecha en formato YYYY/mm/dd, corresponde con un dia feriado de algunos 
-paises.  
+Indicates the holiday of some countries  
 
-## Howto install this module
+## How to install this module
   
 __Download__ and __install__ the content in 'modules' folder in Rocketbot path  
 
@@ -16,17 +11,14 @@ __Download__ and __install__ the content in 'modules' folder in Rocketbot path
 ## Overview
 
 
-1. With this command we can check given a date if it is a holiday in Argentina.  
-Check holyday day in Argentina
+1. Check holiday in Argentina  
+Check holiday in Argentina
 
-2. Check holyday day in Colombia  
-With this command we can check given a date if it is a holiday in Colombia.
+2. Check holiday in Chile  
+Check holiday in Chile
 
-3. Check holyday day in Chile  
-With this command we can check given a date if it is a holiday in Chile
-
-4. Is holiday day in Peru?  
-Check if is a holiday day in Peru  
+3. Is holiday in Peru?  
+Check if is a holiday in Peru  
 
 
 

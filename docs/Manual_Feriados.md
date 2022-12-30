@@ -1,49 +1,37 @@
-
-
-
-
-# Feriados
+# Holidays
   
-Con este modulo podemos verificar si, dada una fecha en formato YYYY/mm/dd, corresponde con un dia feriado de algunos 
-paises.  
+Indicates the holiday of some countries  
+
+*Read this in other languages: [English](Manual_Feriados.md), [Español](Manual_Feriados.es.md).*
   
-![banner](/docs/imgs/Banner_Feriados.png)
-## Como instalar este módulo
+![banner](imgs/Banner_Feriados.png)
+## How to install this module
   
-__Descarga__ e __instala__ el contenido en la carpeta 'modules' en la ruta de rocketbot.  
+__Download__ and __install__ the content in 'modules' folder in Rocketbot path  
 
 
 
-## Descripción de los comandos
+## Description of the commands
 
-### Consultar feriado en Argentina
+### Check holiday in Argentina
   
-Con este comando podemos consultar dada una fecha si es feriado en Argentina.
-|Parámetros|Descripción|ejemplo|
+Check holiday in Argentina
+|Parameters|Description|example|
 | --- | --- | --- |
-|Fecha|Aqui debemos colocar la fecha que deseamos saber si es feriado o no.|2019/10/31|
-|Asignar resultado a variable|Retorna True si la fecha indicada es feriado, caso contrario retorna False.|Variable|
+|Date|Date to check if it is a holiday.|2019/10/31|
+|Assign result to a Variable|Variable where the result of the query will be assigned.|Variable|
 
-### Consultar feriado en Colombia
+### Check holiday in Chile
   
-Con este comando podemos consultar dada una fecha si es feriado en Colombia.
-|Parámetros|Descripción|ejemplo|
+Check holiday in Chile
+|Parameters|Description|example|
 | --- | --- | --- |
-|Fecha|Aqui debemos colocar la fecha que deseamos saber si es feriado o no.|2019/10/31|
-|API Key|Debemos colocar el API Key generado de https//calendarific.com/account|c6aacdee-b11d-4c23-8069-20cf7a6b0c8d|
-|Asignar resultado a variable|Retorna True si la fecha indicada es feriado, caso contrario retorna False.|Variable resultado|
+|Date|Date to check if it is a holiday.|2019/10/31|
+|Assign result to a Variable|Variable where the result of the query will be assigned.|Variable|
 
-### Consultar feriado en Chile
+### Is holiday in Peru?
   
-Con este comando podemos consultar dada una fecha si es feriado en Chile
-|Parámetros|Descripción|ejemplo|
+Check if is a holiday in Peru
+|Parameters|Description|example|
 | --- | --- | --- |
-|Fecha|Aqui debemos colocar la fecha que deseamos saber si es feriado o no.|2019/10/31|
-|Asignar resultado a variable|Retorna True si la fecha indicada es feriado, caso contrario retorna False.|Variable|
-
-### Es feriado en Peru?
-  
-Comprueba si el dia actual es feriado en Peru
-|Parámetros|Descripción|ejemplo|
-| --- | --- | --- |
-|Asignar resultado a una variable|Retorna True si la fecha indicada es feriado, caso contrario retorna False.|res|
+|Set result to a variable|Variable where the result of the query will be assigned.|res|
