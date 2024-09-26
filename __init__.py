@@ -38,7 +38,7 @@ if module == "getFeriadoArgentina":
         date_ = GetParams('date_')
         var_ = GetParams('var_')
         year = date_[0:4]
-        url = r"http://nolaborables.com.ar/api/v2/feriados/{year}?formato=mensual".format(year=year)
+        url = r"https://nolaborables.com.ar/api/v2/feriados/{year}?formato=mensual".format(year=year)
         response = requests.get(url)
         data = response.json()
         try:
