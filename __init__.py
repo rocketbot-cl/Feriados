@@ -48,9 +48,17 @@ if module == "getFeriadoArgentina":
             if feriado is not None:
                 res = True
         except:
-            res = False
+            global month_arg, day_arg
+            month_arg = int(date_[5:7])
+            day_arg = int(date_[8:10])
+            res = [day_ for day_ in data if (day_['mes'] == month_arg and day_['dia'] == day_arg)]
+            if len(res) > 0:
+                res = True
+            else:
+                res = False
         SetVar(var_, res)
     except Exception as e:
+        SetVar(var_, False)
         PrintException()
         raise e
 
